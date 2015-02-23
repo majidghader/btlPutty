@@ -1,0 +1,13 @@
+﻿Build started 23/02/2015 09:26:50.
+     1>Project "C:\Users\mghader\Documents\btlPutty\btlPutty\btlPutty.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mghader\Documents\btlPutty\Debug\btlPutty.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mghader\Documents\btlPutty\Debug\btlPutty.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mghader\Documents\btlPutty\Debug\btlPutty.lib" /MACHINE:X86 Debug\btlPutty.obj
+         Debug\stdafx.obj
+     1>btlPutty.obj : error LNK2019: unresolved external symbol _ADsGetObject@12 referenced in function _main
+     1>btlPutty.obj : error LNK2001: unresolved external symbol _IID_IADs
+     1>C:\Users\mghader\Documents\btlPutty\Debug\btlPutty.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\Users\mghader\Documents\btlPutty\btlPutty\btlPutty.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.27
